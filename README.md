@@ -10,7 +10,7 @@ B2B matchmaking SaaS (Next.js 15 / Supabase / Stripe). The sampled file is the
 production rate-limiter: an adapter that runs on Upstash Redis in prod and an
 in-memory `Map` in dev, with fail-open behaviour on backend outage and a
 warn-once guard when the in-memory path gets selected in production (the
-classic forgot-an-env-var bug). Solo build, live with paying users.
+classic forgot-an-env-var bug). Two-person team — I own backend & infra.
 
 → [`linkasso-rate-limit/`](./linkasso-rate-limit/)
 

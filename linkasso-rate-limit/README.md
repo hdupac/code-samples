@@ -5,16 +5,14 @@ brief submissions) need to be rate-limited per user and per IP across multiple
 Vercel serverless instances — without locking users out when the rate-limit
 backend itself has a bad minute.
 
-**My role.** Solo founder / sole engineer.
+**My role.** Co-founder, owning backend & infrastructure on a two-person team
+(I cover backend / data / payments; my co-founder covers frontend).
 
 **Stack.** Next.js 15 (App Router, server components), Supabase (Postgres, RLS,
 Auth), Stripe Billing, Resend, Upstash Redis, deployed on Vercel.
 
-**State.** Live with paying customers (pilot tier).
+**State.** Pre-launch — V0 MVP, hardening pass in progress before opening a
+closed beta with a small set of student associations and corporate partners.
 
-**One number.** Rate-limit middleware sits in front of every authenticated
-mutation endpoint with zero observed user-visible 5xx attributable to the
-limiter since deploy.
-
-The file in `src/` is the production rate-limit adapter — one of ~40 files in
-the private repo. Full codebase walkthrough available on request.
+The file in `src/` is the rate-limit adapter from the backend. Full codebase
+walkthrough available on request.
