@@ -25,5 +25,5 @@ Claude.
 
 ---
 
-Hippolyte du Pac — M1 ESSEC
+Hippolyte du Pac — M1 ESSEC / 
 Contact: hippolyte.dupac@gmail.com
