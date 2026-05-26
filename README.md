@@ -14,6 +14,15 @@ classic forgot-an-env-var bug). Solo build, live with paying users.
 
 → [`linkasso-rate-limit/`](./linkasso-rate-limit/)
 
+### Production LLM application — prompt-safety layer
+A solo-built LLM application running in production for a paying customer.
+Project name and domain withheld. The sampled file is the prompt-injection
+defense layer — OWASP LLM01-organised pattern detection, XML wrapping with
+closing-tag escape, GDPR-aware audit logging. Stack: Python 3.11, Anthropic
+Claude.
+
+→ [`llm-prompt-safety/`](./llm-prompt-safety/)
+
 ---
 
 Hippolyte du Pac — M1 ESSEC
