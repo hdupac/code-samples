@@ -13,7 +13,7 @@ What this file demonstrates:
     or length metadata).
   - Zero-dependency module: testable in isolation, framework-agnostic.
 
-Hippolyte du Pac de Marsoulies — 2026
+Hippolyte du Pac — 2026
 """
 from __future__ import annotations
 
